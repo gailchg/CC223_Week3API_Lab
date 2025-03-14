@@ -82,13 +82,13 @@ Make sure you have the following installed:
   }
   ```
 
-## 📌 Example Usage
+## Example Usage
 You can test the API using **Postman** or **cURL**:
 ```sh
 curl -X POST -H "Content-Type: application/json" -d '{"username":"testuser","password":"password123"}' http://localhost:5000/api/login
 ```
 
-## 📝 Notes
+## Notes
 - The API uses **JWT for authentication**.
 - Ensure your `.env` file contains a valid `SECRET_KEY`.
 - Start the server before making requests.
